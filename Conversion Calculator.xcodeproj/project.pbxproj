@@ -13,6 +13,7 @@
 		039444872081248500CE6458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039444852081248500CE6458 /* LaunchScreen.storyboard */; };
 		0394448F2081276D00CE6458 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0394448E2081276D00CE6458 /* ConversionViewController.swift */; };
 		03944491208134FD00CE6458 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03944490208134FD00CE6458 /* Converter.swift */; };
+		03D0A95B20A0078D00476D47 /* ConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0A95A20A0078D00476D47 /* ConverterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		039444882081248500CE6458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0394448E2081276D00CE6458 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		03944490208134FD00CE6458 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		03D0A95A20A0078D00476D47 /* ConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				039444882081248500CE6458 /* Info.plist */,
 				0394448E2081276D00CE6458 /* ConversionViewController.swift */,
 				03944490208134FD00CE6458 /* Converter.swift */,
+				03D0A95A20A0078D00476D47 /* ConverterModel.swift */,
 			);
 			path = "Conversion Calculator";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D0A95B20A0078D00476D47 /* ConverterModel.swift in Sources */,
 				0394448F2081276D00CE6458 /* ConversionViewController.swift in Sources */,
 				03944491208134FD00CE6458 /* Converter.swift in Sources */,
 				0394447D2081248400CE6458 /* AppDelegate.swift in Sources */,
